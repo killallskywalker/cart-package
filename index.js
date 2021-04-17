@@ -71,6 +71,7 @@ exports.calculate = (advertisements,cart) => {
 }
 
 /**
+ * To extend the function when theres a new discount other than ['free_item' , 'special_price', 'discount_per_item'] type we can add new method to handle it in this function . 
  * @param {Integer} totalAdvertisement Array of object that contain advertisements and promo related to advertisements
  * @param {Double}  originalPrice Original price for advertisement
  * @param {Object} userPromo Object containing promo to the advertisement
